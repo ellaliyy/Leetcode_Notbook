@@ -25,10 +25,6 @@ class Solution(object):
             return(str1[:len_gcd])
             
     
-    
-    
-    
-    
-    
+### Side Note:
 # /--is the divide operator, e.g. 7/3=2.33333
 # // --- is the "floor division" operator, it rounds down the division into nearest integer
