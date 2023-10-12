@@ -6,7 +6,6 @@ class Solution(object):
         :rtype: List[bool]
         """
         n = []
-        #max_candies = max(candies)
         
         for i in range(len(candies)):
             candies_inhand = candies[i] + extraCandies
@@ -23,5 +22,5 @@ class Solution(object):
 #So we can't use 'len(candies)' directly in for loop
 # we should use 'for i in range(len(candies))'
 
-#we need to find the max value in candies array before for-loop,
-# otherwise the max(candies) will change 
+#we need to use Python's built-in boolean values True and False to make the result a boolean array.
+#If we use 'TRUE', "FALSE" if we want the elements all strings
