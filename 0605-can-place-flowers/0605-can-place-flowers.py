@@ -30,8 +30,7 @@ class Solution(object):
         
         if count >= n:
             return True
-    
-    
+
     
 ##Note:
 # in line16, we should put i == 0 and i = len - 1 before indexing to avoid index out of range.
