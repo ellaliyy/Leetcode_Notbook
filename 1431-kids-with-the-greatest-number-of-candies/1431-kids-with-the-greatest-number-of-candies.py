@@ -6,12 +6,12 @@ class Solution(object):
         :rtype: List[bool]
         """
         n = []
-        max_candies = max(candies)
+        #max_candies = max(candies)
         
         for i in range(len(candies)):
             candies_inhand = candies[i] + extraCandies
             
-            if candies_inhand >= max_candies:
+            if candies_inhand >= max(candies):
                 n.append(True)
             else:
                 n.append(False)
@@ -23,4 +23,5 @@ class Solution(object):
 #So we can't use 'len(candies)' directly in for loop
 # we should use 'for i in range(len(candies))'
 
-#we need to define 
+#we need to find the max value in candies array before for-loop,
+# otherwise the max(candies) will change 
