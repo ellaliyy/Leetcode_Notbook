@@ -9,7 +9,7 @@ class Solution(object):
         #Initialize two variables first and second to positive infinity
         
         for num in nums:
-            if num <= first:
+            if num <= first:#note we need = here for cases the list contains all same numbers
                 first = num
             elif num <= second:
                 second = num
