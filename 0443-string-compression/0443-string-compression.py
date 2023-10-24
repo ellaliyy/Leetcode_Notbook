@@ -26,7 +26,6 @@ class Solution(object):
                     chars[write] = c
                     write += 1
             
-            
         return write
             
             
