@@ -12,7 +12,7 @@ class Solution(object):
             
             if l_sum == r_sum:
                 return i
-            
+
             l_sum += num
         
         return -1
