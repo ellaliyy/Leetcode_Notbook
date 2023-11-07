@@ -8,3 +8,5 @@ FROM (
     DATEDIFF(event_date, MIN(event_date) OVER(PARTITION BY player_id)) = 1 AS login
   FROM Activity
 ) AS t
+
+-- login contain True or False
